@@ -1,0 +1,15 @@
+.personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.info {
+  max-width: 50%;
+}
+
+.photo img {
+  max-width: 300px;
+  border-radius: 10px;
+}
