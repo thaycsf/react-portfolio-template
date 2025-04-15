@@ -10,9 +10,9 @@ export default function App() {
       <main>
         <PersonalInfo />
         <TextSection
-          title="Prazer! Sou Danielle Nunes!"
+          title="Olá, sou a Danielle!"
           subtitle="CRP-04/70868"
-          content="Sou psicóloga, graduada, com uma paixão em ajudar indivíduos a alcançarem seu bem-estar mental."
+          content="Sou psicóloga especializada em psicologia clínica e com diversos cursos na psicanálise. Meu compromisso é oferecer um espaço acolhedor e seguro para que você possa explorar seus sentimentos, compreender seus conflitos e construir uma relação mais saudável consigo mesma(o) e com o mundo ao seu redor. Acredito no poder da escuta ativa e do autoconhecimento, sem soluções prontas ou promessas irreais, mas com um olhar atento, ético e comprometido com o seu bem-estar emocional. Vamos conversar?"
         />
         <TextSection
           title="Como posso te ajudar"

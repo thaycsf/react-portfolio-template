@@ -6,5 +6,12 @@ body {
 }
 
 main {
-  padding: 20px;
+  padding: 20px 40px; /* Aumenta o espaçamento interno */
+  max-width: 1200px; /* Define uma largura máxima para centralizar o conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+a {
+  text-decoration: none; /* Remove sublinhado globalmente */
+  color: inherit; /* Herda a cor do texto */
 }

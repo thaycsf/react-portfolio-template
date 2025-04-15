@@ -4,8 +4,10 @@ export default function PersonalInfo() {
   return (
     <section className="personal-info">
       <div className="info">
-        <h1>Danielle Nunes</h1>
-        <p>"Transformando vidas, uma sessão de cada vez."</p>
+        <blockquote className="quote">
+          <p className="quote-text">"A cura vem pela fala."</p>
+          <cite className="quote-author">Sigmund Freud</cite>
+        </blockquote>
         <p>
           Contato: <a href="mailto:dani@example.com">dani@example.com</a>
         </p>

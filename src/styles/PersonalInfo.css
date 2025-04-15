@@ -1,12 +1,48 @@
 .personal-info {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Alinha os itens ao topo */
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 40px; /* Aumenta o espaçamento interno */
 }
 
 .info {
   max-width: 50%;
+}
+
+.quote {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.quote-text {
+  font-size: 2rem; /* Tamanho maior para a citação */
+  font-style: italic;
+  color: #333;
+  margin: 0;
+}
+
+.quote-author {
+  display: block;
+  font-size: 0.9rem; /* Tamanho menor para o autor */
+  color: rgba(0, 0, 0, 0.6); /* Transparência */
+  text-align: right;
+  margin-top: 5px;
+}
+
+.info p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.info a {
+  color: #555; /* Cor consistente com o texto */
+  text-decoration: none; /* Remove o sublinhado */
+  cursor: pointer; /* Mantém o comportamento de link */
+}
+
+.info a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
 .photo img {
