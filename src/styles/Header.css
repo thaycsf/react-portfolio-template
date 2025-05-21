@@ -3,9 +3,9 @@
   top: 0;
   background: rgba(255, 255, 255, 0.8);
   display: flex;
-  justify-content: space-between; /* Espaça os itens à esquerda e à direita */
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 40px; /* Espaçamento interno para centralizar o conteúdo */
+  padding: 10px 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -15,20 +15,20 @@
 }
 
 .header-left h1 {
-  font-size: 1.5rem; /* Ajusta o tamanho do texto */
+  font-size: 1.5rem;
   margin: 0;
   color: #333;
 }
 
 .header-left .subtitle {
-  font-size: 1rem; /* Ajusta o tamanho do texto */
-  color: #333; /* Cor consistente */
-  margin-top: 2px; /* Reduz o espaçamento entre o título e o subtítulo */
+  font-size: 1rem;
+  color: #333;
+  margin-top: 2px;
 }
 
 .header-nav {
   display: flex;
-  gap: 20px; /* Espaçamento entre os links */
+  gap: 20px;
 }
 
 .header-nav a {
@@ -39,11 +39,33 @@
 }
 
 .header-nav a:hover {
-  color: #555; /* Cor ao passar o mouse */
+  color: #555;
 }
 
-.whatsapp-link {
-  color: #333; /* Cor preta ou cinza */
-  text-decoration: none;
-  font-size: 2.8rem; /* Aumenta o tamanho do ícone */
+.header-title-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.main-title {
+  font-family: Marcellus-Regular, Marcellus, serif;
+  font-size: 30px;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.main-subtitle {
+  font-family: Marcellus-Regular, Marcellus, serif;
+  font-size: 15px;
+  color: #555;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }

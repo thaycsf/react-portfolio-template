@@ -16,7 +16,10 @@ export default function App() {
         />
         <TextSection
           title="Como posso te ajudar"
-          content="Ofereço terapia individual, aconselhamento para casais e sessões de gerenciamento de estresse personalizadas para suas necessidades."
+          content="Através da escuta atenta e das interpretações psicanalíticas, ajudarei você a identificar padrões repetitivos, compreender suas dores emocionais e ressignificar experiências passadas que ainda impactam sua vida.
+          Esse processo promove maior clareza sobre si mesmo(a), fortalecimento emocional e mudanças significativas na forma como você se relaciona consigo e com os outros.
+          Com a flexibilidade da terapia online, é possível acessar esse cuidado de qualquer lugar, respeitando seu ritmo e sua rotina, sem perder a profundidade do trabalho terapêutico.
+          Se você deseja se conhecer melhor e encontrar novos caminhos para uma vida mais leve e equilibrada, estou aqui para te acompanhar nessa jornada."
         />
         <TextSection
           title="Benefícios da Psicoterapia Online"
