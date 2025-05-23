@@ -14,7 +14,9 @@ export default function Header() {
         <a href="#benefits">Benefícios</a>
         <a href="#faq">Dúvidas</a>
       </nav>
-      <WhatsappButton />
+      <div className="header-whatsapp">
+        <WhatsappButton header />
+      </div>
     </header>
   );
 }

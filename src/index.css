@@ -1,17 +1,31 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background: #fff8f1;
 }
 
 main {
-  padding: 20px 40px; /* Aumenta o espaçamento interno */
-  max-width: 1200px; /* Define uma largura máxima para centralizar o conteúdo */
-  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: transparent;
+  padding-top: 120px;
 }
 
 a {
-  text-decoration: none; /* Remove sublinhado globalmente */
-  color: inherit; /* Herda a cor do texto */
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Marcellus", serif;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
 }

@@ -13,12 +13,12 @@ export default function PersonalInfo() {
           <cite className="personal-quote-author">Sigmund Freud</cite>
         </blockquote>
         <a
-          className="personal-whatsapp-btn"
+          className="whatsapp-btn"
           href="https://wa.me/+5531991127403"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Fale comigo agora
+          <span className="whatsapp-text">Fale comigo agora</span>
         </a>
       </div>
       <div className="photo">
