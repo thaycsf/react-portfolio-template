@@ -28,9 +28,11 @@
 }
 
 .info a {
-  color: #555;
+  color: #eee;
   text-decoration: none;
   cursor: pointer;
+  white-space: normal;
+  text-align: center;
 }
 
 .info a:hover {
@@ -129,6 +131,7 @@
   text-align: right;
   margin-top: 5px;
   font-family: "Source Sans 3", Sans-serif;
+  font-weight: 600;
 }
 
 @media (max-width: 900px) {

@@ -15,7 +15,6 @@
   border-bottom: 1px solid #dddddd;
   z-index: 1000;
 }
-
 .header-title-row {
   display: flex;
   flex-direction: column;
@@ -86,5 +85,55 @@
   .header-nav {
     gap: 18px;
     padding: 0 4px;
+  }
+
+  .main-title {
+    font-family: "Marcellus", serif;
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.1;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .header {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0 12px;
+  }
+  
+  .header .whatsapp-text {
+    visibility: hidden; 
+    position: absolute;
+  }
+  .header-nav {
+    justify-content: space-around;
+    padding: 0 4px;
+  }
+
+  .header-nav a {
+    font-size: 0.8rem;
+  }
+
+  .main-title {
+    font-size: 1.5rem;
+  }
+
+  .main-subtitle {
+      font-size: 1rem;
+    }
+
+  .header-whatsapp {
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    align-items: flex-start;
   }
 }
