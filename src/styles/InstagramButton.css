@@ -1,0 +1,33 @@
+.instagram-section {
+  display: inline;
+}
+
+.instagram-btn.header-style {
+  background: transparent;
+  color: #6a8caf;
+  border: 2px solid #6a8caf;
+  border-radius: 999px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  font-size: 1.4rem;
+}
+
+.instagram-btn.header-style:hover {
+  background: rgba(106, 140, 175, 0.08);
+  color: #4a6a8b;
+  border-color: #4a6a8b;
+  padding: 8px;
+}
+
+.instagram-icon {
+  font-size: 1.4rem;
+  color: #6a8caf;
+  transition: color 0.2s;
+}
+
+.instagram-btn.header-style:hover .instagram-icon {
+  color: #4a6a8b;
+}

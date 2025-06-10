@@ -74,21 +74,20 @@
 .personal-whatsapp-btn {
   display: inline-flex;
   align-items: center;
-  background-color: #333;
+  background: #6a8caf;
+  color: #fff8f1;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-style: normal;
   text-decoration: none;
   line-height: 1em;
   letter-spacing: 2px;
   word-spacing: 0;
-  fill: #fff;
-  color: #fff;
   border-radius: 50px;
   padding: 25px 35px;
-  margin-bottom: 32px;
+  margin-bottom: 75px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   border: none;
   transition: background 0.2s, color 0.2s;
@@ -96,42 +95,58 @@
 }
 
 .personal-whatsapp-btn:hover {
-  background: #555;
-  color: #fff;
+  background: #4a6a8b;
+  color: #ffd992;
+  text-decoration: none !important;
+}
+
+.personal-whatsapp-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.info .whatsapp-btn {
+  width: auto !important;
+  min-width: 0;
+  max-width: 100%;
+  align-self: center;
+  margin: 0;
 }
 
 .personal-quote {
   margin: 0 0 18px 0;
-  padding: 0;
+  padding: 50px 0 25px 0;
   border: none;
   background: none;
   box-shadow: none;
-  font-size: inherit;
-  font-family: inherit;
+  max-width: 700px;
+  width: 100%;
 }
 
 .personal-quote-text {
-  font-family: "Source Sans 3", Sans-serif;
-  font-size: 205px;
-  font-weight: 400;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1em;
-  letter-spacing: -0.5px;
-  word-spacing: 0;
+  font-family: "Marcellus", serif;
+  font-size: 4.2rem;
+  font-weight: bold;
   color: #333;
-  margin: 0 0 10px 0;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  text-align: left;
+  white-space: pre-line;
+  width: auto;
 }
 
 .personal-quote-author {
   display: block;
-  font-size: 1.1rem;
-  color: rgba(0, 0, 0, 0.6);
   text-align: right;
-  margin-top: 5px;
-  font-family: "Source Sans 3", Sans-serif;
+  font-size: 2.3rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Marcellus", serif;
   font-weight: 600;
+  margin-top: 12px;
+  width: 100%;
 }
 
 @media (max-width: 900px) {

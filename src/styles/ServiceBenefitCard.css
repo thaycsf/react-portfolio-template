@@ -1,0 +1,72 @@
+.service-benefit-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(106, 140, 175, 0.08);
+  padding: 32px 24px;
+  margin: 16px;
+  text-align: center;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  color: #6a8caf;
+  font-family: "Marcellus", serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.card-summary {
+  color: #333;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.service-btn {
+  background: transparent;
+  color: #6a8caf;
+  border: 2px solid #6a8caf;
+  border-radius: 999px;
+  padding: 10px 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.service-btn:hover {
+  background: rgba(106, 140, 175, 0.08);
+  color: #4a6a8b;
+  border-color: #4a6a8b;
+}
+
+.service-benefit-card.service-card {
+  background: #f3dfb6;
+}
+
+.benefit-card {
+  background: #f3dfb6;
+}
+
+.benefit-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .benefit-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
