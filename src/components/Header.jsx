@@ -11,7 +11,7 @@ export default function Header() {
     setIsMobile(window.innerWidth <= 913)
   }
 
-window.onresize = reportWindowSize;
+  window.onresize = reportWindowSize;
 
   return (
     <>

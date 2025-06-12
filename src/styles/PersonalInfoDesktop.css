@@ -24,7 +24,7 @@
 
 .hero {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1fr 1fr;
 }
 
 .info p {
@@ -103,10 +103,9 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-top: 75px;
-  width: calc(100% + 50px);
-  align-items: center;
-  margin: 18px -25px;
+  margin-top: 18px;
+  height: 150px;
+  width: 100%;
 }
 
 .info .whatsapp-btn {
@@ -167,29 +166,5 @@
   }
   .photo img {
     max-width: 220px;
-  }
-
-  .personal-quote {
-    padding: 25px 0;
-  }
-
-  .personal-quote-text {
-    font-size: 2.5rem;
-  }
-
-  .personal-quote-author {
-    font-size: 1.5rem;
-  }
-
-  .hero {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .photo {
-    opacity: 1;
-  }
-
-  .personal-whatsapp-container {
-    padding-top: 0px
   }
 }
