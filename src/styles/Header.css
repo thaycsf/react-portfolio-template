@@ -151,3 +151,17 @@
     z-index: 1100;
   }
 }
+
+.header-menu-button {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  background: white;
+  right: 0;
+  top: 0;
+
+  > svg {
+    width: 50%;
+    height: 50%;
+  }
+}

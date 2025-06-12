@@ -5,7 +5,7 @@
 .whatsapp-btn {
   display: inline-flex !important;
   align-items: center;
-  background: #6a8caf;
+  background: var(--i-main-color);
   color: #fff8f1;
   padding: 8px 18px;
   border-radius: 999px;
@@ -26,7 +26,7 @@
 }
 
 .whatsapp-btn:hover {
-  background: #4a6a8b;
+  background: var(--i-main-color-2);
   color: #ffd992;
   text-decoration: none !important;
 }
@@ -44,23 +44,23 @@
 .whatsapp-btn.header-style {
   padding: 8px;
   background: transparent;
-  color: #6a8caf;
-  border: 2px solid #6a8caf;
+  color: var(--i-main-color);
+  border: 2px solid var(--i-main-color);
   box-shadow: none;
 }
 
 .whatsapp-btn.header-style .whatsapp-icon {
-  color: #6a8caf;
+  color: var(--i-main-color);
 }
 
 .whatsapp-btn.header-style:hover {
   background: rgba(106, 140, 175, 0.08);
-  color: #4a6a8b;
-  border-color: #4a6a8b;
+  color: var(--i-main-color-2);
+  border-color: var(--i-main-color-2);
 }
 
 .whatsapp-btn.header-style:hover .whatsapp-icon {
-  color: #4a6a8b;
+  color: var(--i-main-color-2);
 }
 
 .whatsapp-btn .whatsapp-icon + .whatsapp-text {

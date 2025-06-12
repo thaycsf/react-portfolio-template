@@ -7,7 +7,8 @@ body {
 }
 
 html {
-  scroll-padding-top: 120px;
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -57,4 +58,11 @@ h6 {
   );
   z-index: 0;
   pointer-events: none;
+}
+
+
+:root {
+  /* color */
+  --i-main-color: #6a8caf;
+  --i-main-color-2: #4a6a8b;
 }

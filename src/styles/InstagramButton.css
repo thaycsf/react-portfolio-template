@@ -4,8 +4,8 @@
 
 .instagram-btn.header-style {
   background: transparent;
-  color: #6a8caf;
-  border: 2px solid #6a8caf;
+  color: var(--i-main-color);
+  border: 2px solid var(--i-main-color);
   border-radius: 999px;
   padding: 8px;
   display: flex;
@@ -17,17 +17,17 @@
 
 .instagram-btn.header-style:hover {
   background: rgba(106, 140, 175, 0.08);
-  color: #4a6a8b;
-  border-color: #4a6a8b;
+  color: var(--i-main-color-2);
+  border-color: var(--i-main-color-2);
   padding: 8px;
 }
 
 .instagram-icon {
   font-size: 1.4rem;
-  color: #6a8caf;
+  color: var(--i-main-color);
   transition: color 0.2s;
 }
 
 .instagram-btn.header-style:hover .instagram-icon {
-  color: #4a6a8b;
+  color: var(--i-main-color-2);
 }
