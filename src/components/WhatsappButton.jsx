@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import "../styles/WhatsappButton.css";
+import { CONTACT_INFO } from "../constants";
 
 export default function WhatsappButton({
   header = false,
@@ -10,9 +11,8 @@ export default function WhatsappButton({
   message,
   className = "",
 }) {
-  const phone = "+5531991253924";
-  const msg = message || "Olá, Danielle! Gostaria de agendar uma sessão.";
-  const link = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
+  const msg = message || CONTACT_INFO.defaultWhatsappMessage;
+  const link = `https://wa.me/${CONTACT_INFO.phone}?text=${encodeURIComponent(msg)}`;
 
   return (
     <section className="whatsapp-section">

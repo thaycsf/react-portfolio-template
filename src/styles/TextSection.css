@@ -1,6 +1,7 @@
 .text-section {
   padding: 20px;
   background: #fff8f1;
+  margin-bottom: 0;
 }
 
 .text-section h2 {

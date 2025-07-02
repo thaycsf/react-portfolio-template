@@ -20,6 +20,14 @@ export default function App() {
           subtitle="CRP-04/70868"
           content="Sou psicóloga especializada em psicologia clínica e com diversos cursos na psicanálise. Meu compromisso é oferecer um espaço acolhedor e seguro para que você possa explorar seus sentimentos, compreender seus conflitos e construir uma relação mais saudável consigo mesma(o) e com o mundo ao seu redor. Acredito no poder da escuta ativa e do autoconhecimento, sem soluções prontas ou promessas irreais, mas com um olhar atento, ético e comprometido com o seu bem-estar emocional. Vamos conversar?"
         />
+        <div className="button-container">
+          <WhatsappButton
+            text="Agende sua sessão"
+            showIcon={false}
+            className="personal-whatsapp-btn"
+            message="Olá, Danielle! Gostaria de agendar uma sessão."
+          />
+        </div>
         <section id="servicos" className="section-block">
           <TextSection
             id="servicos"
@@ -31,13 +39,7 @@ export default function App() {
               "Se você deseja se conhecer melhor e encontrar novos caminhos para uma vida mais leve e equilibrada, estou aqui para te acompanhar nessa jornada.",
             ]}
           />
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-            }}
-          >
+          <div className="services-grid">
             <ServiceCard
               title="Depressão"
               summary="A depressão é um transtorno mental sério que vai muito além da tristeza passageira. Ela afeta profundamente o humor, a energia e a motivação, tornando tarefas do dia a dia desafiadoras. Sensações persistentes de vazio, desesperança e desinteresse por atividades antes prazerosas são comuns. Compreender seus impactos e buscar apoio adequado pode transformar sua qualidade de vida."
@@ -94,13 +96,7 @@ export default function App() {
             />
           </div>
         </section>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            margin: "32px 0",
-          }}
-        >
+        <div className="button-container-small">
           <WhatsappButton
             text="Fale comigo agora"
             showIcon={false}
@@ -108,7 +104,7 @@ export default function App() {
             message="Olá, Danielle! Gostaria de agendar uma sessão."
           />
         </div>
-        <section id="faq" className="section-block" style={{ marginTop: 40 }}>
+        <section id="faq" className="section-block faq-section">
           <div className="faq-tree">
             <h2>Tire suas dúvidas!</h2>
             <FaqTree />

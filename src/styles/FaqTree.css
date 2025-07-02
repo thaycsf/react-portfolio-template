@@ -43,15 +43,15 @@
 .faq-answer {
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
   color: #333;
   background: #fff8f1;
-  padding: 0 0;
+  padding: 0;
 }
 
 .faq-answer.open {
-  padding: 12px 0 20px 0;
-  max-height: 200px;
+  padding: 16px 0 20px 0;
+  max-height: 500px;
 }
 
 .faq-tree h2 {

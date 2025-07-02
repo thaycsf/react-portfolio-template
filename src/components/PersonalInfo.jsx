@@ -1,5 +1,4 @@
 import "../styles/PersonalInfo.css";
-import WhatsappButton from "./WhatsappButton";
 
 export default function PersonalInfo() {
   return (
@@ -25,14 +24,6 @@ export default function PersonalInfo() {
           </span>
           <cite className="personal-quote-author">- Sigmund Freud</cite>
         </blockquote>
-      </div>
-      <div className="personal-whatsapp-container">
-        <WhatsappButton
-          text="Agende sua sessão"
-          showIcon={false}
-          className="personal-whatsapp-btn"
-          message="Olá, Danielle! Gostaria de agendar uma sessão."
-        />
       </div>
     </section >
   );

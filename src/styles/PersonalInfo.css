@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 32px 40px;
   background: transparent;
-  gap: 32px;
+  gap: 8px;
   max-width: 1200px;
   margin: 0 auto;
   min-height: calc(100vh - 135px);
@@ -67,7 +67,7 @@
   letter-spacing: 0;
   word-spacing: 0;
   color: #333;
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
 
 .personal-whatsapp-btn {
@@ -99,24 +99,6 @@
   text-decoration: none !important;
 }
 
-.personal-whatsapp-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding-top: 75px;
-  width: calc(100% + 50px);
-  align-items: center;
-  margin: 18px -25px;
-}
-
-.info .whatsapp-btn {
-  width: auto !important;
-  min-width: 0;
-  max-width: 100%;
-  align-self: center;
-  margin: 0;
-}
-
 .personal-quote {
   margin: 0 0 18px 0;
   padding: 50px 0 25px 0;
@@ -141,6 +123,9 @@
   text-align: left;
   white-space: pre-line;
   width: auto;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(255, 255, 255, 0.6);
+  position: relative;
+  z-index: 2;
 }
 
 .personal-quote-author {
@@ -151,6 +136,9 @@
   font-weight: 600;
   margin-top: 12px;
   width: 100%;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(255, 255, 255, 0.6);
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width: 900px) {
@@ -166,7 +154,9 @@
     flex: 1 1 100%;
   }
   .photo img {
-    max-width: 220px;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
   }
 
   .personal-quote {
@@ -187,9 +177,23 @@
   }
   .photo {
     opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo img {
+    max-width: 300px;
+  }
+  
+  .personal-quote-text {
+    font-size: 2.2rem;
   }
 
-  .personal-whatsapp-container {
-    padding-top: 0px
+  .personal-quote-author {
+    font-size: 1.3rem;
   }
 }

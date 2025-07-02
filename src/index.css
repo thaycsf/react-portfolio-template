@@ -37,27 +37,26 @@ h6 {
 
 .section-block {
   margin-bottom: 56px;
-  padding-bottom: 0;
-  padding-top: 0;
+  padding-bottom: 32px;
+  padding-top: 32px;
   position: relative;
+}
+
+.section-block:not(:first-child) {
+  border-top: 1px solid rgba(106, 140, 175, 0.15);
+  margin-top: 32px;
 }
 
 .section-block:not(:first-child)::before {
   content: "";
-  display: block;
-  height: 32px;
-  width: 100vw;
   position: absolute;
-  top: -32px;
+  top: -1px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(
-    to bottom,
-    #f8f1e9 20%,
-    rgba(224, 224, 224, 0) 100%
-  );
-  z-index: 0;
-  pointer-events: none;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--i-main-color), transparent);
+  border-radius: 2px;
 }
 
 
@@ -65,4 +64,27 @@ h6 {
   /* color */
   --i-main-color: #6a8caf;
   --i-main-color-2: #4a6a8b;
+}
+
+/* Utility classes */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 24px 0;
+}
+
+.button-container-small {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 16px 0;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.faq-section {
+  margin-top: 40px;
 }
