@@ -160,15 +160,15 @@
   }
 
   .personal-quote {
-    padding: 25px 0;
+    padding: 15px 0;
   }
 
   .personal-quote-text {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
 
   .personal-quote-author {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .hero {
@@ -180,7 +180,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 16px 0;
+    margin: 8px 0;
+  }
+
+  .personal-quote {
+    align-items: center;
+    text-align: center;
+  }
+
+  .personal-quote-text {
+    text-align: center;
+  }
+
+  .personal-quote-author {
+    text-align: right;
   }
 }
 
@@ -190,10 +203,10 @@
   }
   
   .personal-quote-text {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
   }
 
   .personal-quote-author {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 }
